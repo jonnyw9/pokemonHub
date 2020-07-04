@@ -1,0 +1,73 @@
+#mainPage{
+	height: 100%;
+	width: 100%;
+
+}
+
+#map{
+        height: 75%;
+        width: 90%;
+    
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body{
+        height: 100%;
+        width: 100%;
+        margin: 1%;
+          /*
+        display:  flex;
+        flex-direction: column;
+        */
+      }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.tweet{
+    border-bottom: 2px solid black;
+}
+
+#latestTweets{
+    border: 3px solid black;
+    padding: 0.5%;
+    width: 88.8%;
+    background-color: crimson;
+    color: #FFFFFF;
+    margin-bottom: 1%;
+}
+
+#other{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+#tweetPokemon{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #00a8ff;
+    border: 3px solid black;
+    margin-right: 5em;
+    color: #FFFFFF;
+}
+
+#weather{
+    background-color: #ffff00;
+    border: 3px solid black;
+    margin-right: 5em;
+    padding: 0.5em;
+    width: 30%;
+}
+
+#distanceContainer{
+    background-color: #08ff00;
+    border: 3px solid black;
+    padding: 0.5em;
+    width: 30%;
+}
